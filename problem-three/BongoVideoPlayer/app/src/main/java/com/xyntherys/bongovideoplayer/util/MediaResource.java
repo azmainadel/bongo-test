@@ -10,6 +10,7 @@ import com.xyntherys.bongovideoplayer.model.MediaFile;
 public class MediaResource {
     public static final MediaFile[] VIDEO_FILES = {
             new MediaFile("Sample Robot",
-                    "android.resource://" + "/raw/" + "sample_video")
+                    "android.resource://" + "com.xyntherys.bongovideoplayer" +
+                            "/raw/" + "sample_video")
     };
 }

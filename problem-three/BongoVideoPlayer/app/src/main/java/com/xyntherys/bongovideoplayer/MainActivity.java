@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         MediaController mController = new MediaController(this);
         mController.setMediaPlayer(mVideoView);
+        mVideoView.setMediaController(mController);
     }
 
     private void initPlayer() {
